@@ -1,0 +1,7 @@
+{
+  "name": "YouTubeVideoApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
