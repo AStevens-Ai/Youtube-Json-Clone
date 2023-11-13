@@ -1,20 +1,25 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-item>
+      <ion-avatar slot="start" class="custom-avatar">
+        <img src="assets/photos/utubeJr.png" alt="Logo">
+      </ion-avatar>
+      <ion-title class="Title">
+        Youtube Jr.
+      </ion-title>
+    </ion-item>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content>
+  <ion-list *ngFor="let movie of movies | keyvalue" class="list">
+    <ion-item>
+      <ion-label (click)="handleLabelClick(movie.value)">{{movie.value.title}}
+        <p>{{movie.value.description}}</p>
+      </ion-label>
+      <ion-thumbnail slot="start">
+        <img [src]="movie.value.thumbnailUrl" alt="{{ movie.value.title }} thumbnail">
+      </ion-thumbnail>
+    </ion-item>
+  </ion-list>
 </ion-content>

@@ -1,0 +1,53 @@
+{
+    "movies": {
+        "movieOne": {
+            "title": "Test 1",
+            "link": "https://www.youtube.com/watch?v=SO8lBVWF2Y8",
+            "thumbnailUrl": "assets/photos/movieOne.jpeg",
+            "id": "SO8lBVWF2Y8",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique justo eget felis pharetra suscipit. Duis condimentum, dolor sed iaculis semper, purus diam scelerisque arcu, ut mollis orci elit in nisl. Fusce consectetur dui a viverra porta. Vivamus sollicitudin vel nibh ac bibendum. Nullam at elit vel urna vehicula cursus. Fusce"
+        },
+        "movieTwo": {
+            "title": "test 2?",
+            "link": "https://www.youtube.com/watch?v=_Wkg3s8_75w",
+            "thumbnailUrl": "assets/photos/movieTwo.jpeg",
+            "id": "_Wkg3s8_75w",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique justo eget felis pharetra suscipit. Duis condimentum, dolor sed iaculis semper, purus diam scelerisque arcu, ut mollis orci elit in nisl. Fusce consectetur dui a viverra porta. Vivamus sollicitudin vel nibh ac bibendum. Nullam at elit vel urna vehicula cursus. Fusce"
+        },
+        "movieThree": {
+            "title": "test 3)",
+            "link": "https://www.youtube.com/watch?v=1A6SrPwmGpg",
+            "thumbnailUrl": "assets/photos/movieThree.jpeg",
+            "id": "1A6SrPwmGpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique justo eget felis pharetra suscipit. Duis condimentum, dolor sed iaculis semper, purus diam scelerisque arcu, ut mollis orci elit in nisl. Fusce consectetur dui a viverra porta. Vivamus sollicitudin vel nibh ac bibendum. Nullam at elit vel urna vehicula cursus. Fusce"
+        },
+        "movieFour": {
+            "title": "test 4",
+            "link": "https://www.youtube.com/watch?v=mL8EuL7jSbg",
+            "thumbnailUrl": "assets/photos/movieFour.jpeg",
+            "id": "mL8EuL7jSbg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique justo eget felis pharetra suscipit. Duis condimentum, dolor sed iaculis semper, purus diam scelerisque arcu, ut mollis orci elit in nisl. Fusce consectetur dui a viverra porta. Vivamus sollicitudin vel nibh ac bibendum. Nullam at elit vel urna vehicula cursus. Fusce"
+        },
+        "movieFive": {
+            "title": "test 5",
+            "link": "hhttps://www.youtube.com/watch?v=oc_TNtCe2sY",
+            "thumbnailUrl": "assets/photos/movieFive.jpeg",
+            "id": "oc_TNtCe2sY",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique justo eget felis pharetra suscipit. Duis condimentum, dolor sed iaculis semper, purus diam scelerisque arcu, ut mollis orci elit in nisl. Fusce consectetur dui a viverra porta. Vivamus sollicitudin vel nibh ac bibendum. Nullam at elit vel urna vehicula cursus. Fusce"
+        },
+        "movieSix": {
+            "title": "test 6",
+            "link": "https://www.youtube.com/watch?v=aX-YuvQkSRE",
+            "thumbnailUrl": "assets/photos/movieSix.jpeg",
+            "id": "aX-YuvQkSRE",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique justo eget felis pharetra suscipit. Duis condimentum, dolor sed iaculis semper, purus diam scelerisque arcu, ut mollis orci elit in nisl. Fusce consectetur dui a viverra porta. Vivamus sollicitudin vel nibh ac bibendum. Nullam at elit vel urna vehicula cursus. Fusce"
+        },
+        "movieSeven": {
+            "title": "test 7",
+            "link": "https://www.youtube.com/watch?v=ID79csvcO0U",
+            "thumbnailUrl": "assets/photos/movieSeven.jpeg",
+            "id": "ID79csvcO0U",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tristique justo eget felis pharetra suscipit. Duis condimentum, dolor sed iaculis semper, purus diam scelerisque arcu, ut mollis orci elit in nisl. Fusce consectetur dui a viverra porta. Vivamus sollicitudin vel nibh ac bibendum. Nullam at elit vel urna vehicula cursus. Fusce"
+        }
+    }
+}
