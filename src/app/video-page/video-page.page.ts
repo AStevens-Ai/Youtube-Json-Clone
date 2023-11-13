@@ -44,13 +44,13 @@ export class VideoPagePage implements OnInit {
       firstScriptTag.parentNode?.insertBefore(tag, firstScriptTag);
     } else {
       this.createPlayer(videoId, selectedVideo);
-      this.setPlayerDimensions(); // Adjust player dimensions
+      this.setPlayerDimensions();
     }
 
     (window as any).onYouTubeIframeAPIReady = () => {
       this.createPlayer(videoId, selectedVideo);
       console.log('YouTube IFrame API ready. Player initialized.');
-      this.setPlayerDimensions(); // Adjust player dimensions when the API is ready
+      this.setPlayerDimensions();
     };
   }
 
@@ -81,8 +81,8 @@ export class VideoPagePage implements OnInit {
     const playerElement = document.getElementById('player');
     if (playerElement) {
       const screenWidth = window.innerWidth;
-      const playerWidth = screenWidth < 640 ? screenWidth : 640; // Adjust width to fit smaller screens
-      const playerHeight = playerWidth * 0.5625; // 16:9 aspect ratio
+      const playerWidth = screenWidth < 640 ? screenWidth : 640;
+      const playerHeight = playerWidth * 0.5625;
 
       playerElement.style.width = `${playerWidth}px`;
       playerElement.style.height = `${playerHeight}px`;
